@@ -72,3 +72,12 @@ inori_twitter_app:
     consumer_secret: %knp_bundles.twitter.consumer_secret%
     oauth_token: %knp_bundles.twitter.oauth_token%
     oauth_token_secret: %knp_bundles.twitter.oauth_token_secret%
+
+old_sound_rabbit_mq:
+    connections:
+        default:
+            host:      %old_sound_rabbit_mq.host%
+            port:      %old_sound_rabbit_mq.port%
+            user:      %old_sound_rabbit_mq.user%
+            password:  %old_sound_rabbit_mq.password%
+            vhost:     %old_sound_rabbit_mq.vhost%

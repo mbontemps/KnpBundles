@@ -23,6 +23,8 @@ $loader->registerNamespaces(array(
     'Etcpasswd'                     => __DIR__.'/../vendor/bundles',
     'Buzz'                          => __DIR__.'/../vendor/buzz/lib',
     'Inori'                         => __DIR__.'/../vendor/bundles',
+    'OldSound'                      => __DIR__.'/../vendor/bundles',
+    'PhpAmqpLib'                    => __DIR__.'/../vendor/videlalvaro/php-amqplib',
 ));
 
 $loader->registerPrefixes(array(

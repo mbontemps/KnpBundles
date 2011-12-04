@@ -118,3 +118,11 @@
 [twitteroauth]
     git=http://github.com/abraham/twitteroauth.git
     target=twitteroauth
+
+[RabbitMqBundle]
+    git=http://github.com/videlalvaro/RabbitMqBundle.git
+    target=bundles/OldSound/RabbitMqBundle
+
+[php-amqplib]
+    git=http://github.com/videlalvaro/php-amqplib.git
+    target=videlalvaro/php-amqplib
